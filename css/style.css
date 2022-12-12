@@ -105,8 +105,8 @@ h1 {
 }
 
 .dp{
-height: auto;
-width: auto;
+height: 200px;
+width: 200px;
 border-radius: 10%;
 border-color: black;
 border-width: 4px;
@@ -117,21 +117,22 @@ align-items: center;
 
 #aboutmegrid {
     margin: 5%;
-    margin-top: 5%;
     display: grid;
     height: auto;
     grid-template-rows: 100%;
-    grid-template-columns:10% 90%;
+    grid-template-columns:30% 70%;
     grid-template-areas:
         "title area";
 }
 
 #aboutmetitle {
     grid-area: title;
+    font-size: 15px;
 }
 
 #aboutmetext {
     grid-area: area;
+    font-size: 20px;
 }
 
 .title {
